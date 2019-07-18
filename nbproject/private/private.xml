@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/var/www/html/laravel_qa/resources/views/questions/show.blade.php</file>
+            <file>file:/var/www/html/laravel_qa/.env</file>
+            <file>file:/var/www/html/laravel_qa/database/factories/AnswerFactory.php</file>
+            <file>file:/var/www/html/laravel_qa/app/Question.php</file>
+            <file>file:/var/www/html/laravel_qa/routes/web.php</file>
+            <file>file:/var/www/html/laravel_qa/resources/views/questions/index.blade.php</file>
+            <file>file:/var/www/html/laravel_qa/resources/views/answers/_index.blade.php</file>
+            <file>file:/var/www/html/laravel_qa/resources/views/vendor/pagination/bootstrap-4.blade.php</file>
+            <file>file:/var/www/html/laravel_qa/resources/views/questions/_excerpt.blade.php</file>
+            <file>file:/var/www/html/laravel_qa/resources/views/answers/answer.blade.php</file>
+            <file>file:/var/www/html/laravel_qa/resources/assets/sass/app.scss</file>
+        </group>
+    </open-files>
+</project-private>
