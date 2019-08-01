@@ -12,6 +12,7 @@ class Answer extends Model
 {
     use VotableTrait;
     protected $fillable = ['body','user_id'];
+    protected $appends = ['created_date','body_html','is_best'];
     public function question() {
         
        return  $this->belongsTo(Question::class);
@@ -50,7 +51,17 @@ class Answer extends Model
     
     public function  getStatusAttribute(){
         
-        return $this->id === $this->question->best_answer_id ? 'vote-accepted':'';
+        return $this->isBest() ? 'vote-accepted':'';
+    }
+    
+    public function getIsBestAttribute() {
+        
+        return $this->isBest();
+    }
+    
+    public function isBest() {
+        
+        return $this->id === $this->question->best_answer_id;
     }
 
 }

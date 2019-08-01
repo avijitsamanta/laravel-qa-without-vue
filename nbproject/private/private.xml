@@ -5,15 +5,20 @@
         <group>
             <file>file:/var/www/html/laravel_qa/resources/views/questions/show.blade.php</file>
             <file>file:/var/www/html/laravel_qa/.env</file>
-            <file>file:/var/www/html/laravel_qa/database/factories/AnswerFactory.php</file>
+            <file>file:/var/www/html/laravel_qa/resources/views/shared/_accept.blade.php</file>
             <file>file:/var/www/html/laravel_qa/app/Question.php</file>
+            <file>file:/var/www/html/laravel_qa/resources/views/shared/_vote.blade.php</file>
             <file>file:/var/www/html/laravel_qa/routes/web.php</file>
-            <file>file:/var/www/html/laravel_qa/resources/views/questions/index.blade.php</file>
-            <file>file:/var/www/html/laravel_qa/resources/views/answers/_index.blade.php</file>
-            <file>file:/var/www/html/laravel_qa/resources/views/vendor/pagination/bootstrap-4.blade.php</file>
-            <file>file:/var/www/html/laravel_qa/resources/views/questions/_excerpt.blade.php</file>
+            <file>file:/var/www/html/laravel_qa/app/Http/Controllers/VoteAanswerController.php</file>
+            <file>file:/var/www/html/laravel_qa/app/Answer.php</file>
+            <file>file:/var/www/html/laravel_qa/resources/assets/js/app.js</file>
+            <file>file:/var/www/html/laravel_qa/resources/assets/js/components/Answer.vue</file>
+            <file>file:/var/www/html/laravel_qa/app/User.php</file>
             <file>file:/var/www/html/laravel_qa/resources/views/answers/answer.blade.php</file>
-            <file>file:/var/www/html/laravel_qa/resources/assets/sass/app.scss</file>
+            <file>file:/var/www/html/laravel_qa/app/Http/Controllers/VoteQuestionController.php</file>
+            <file>file:/var/www/html/laravel_qa/resources/assets/js/components/Vote.vue</file>
+            <file>file:/var/www/html/laravel_qa/resources/assets/js/components/accept.vue</file>
+            <file>file:/var/www/html/laravel_qa/resources/assets/js/components/Favorite.vue</file>
         </group>
     </open-files>
 </project-private>

@@ -18,16 +18,11 @@
                     <hr>
 
                     <div class="media">
-                        @include('shared._vote',[
-                            'model'=>$question
-                        ])
+                        <vote :model="{{ $question }}" name=question></vote>
                         <div class="media-body">
                             {!! $question->body_html !!}
                             <div class="float-right">
-                              @include('shared._author',[
-                                'model'=>$question,
-                                'label'=>'Asked'
-                              ])
+                                <user-info :model="{{ $question }}" label="Asked"></user-info>
                             </div>
                         </div>
                     </div>
@@ -35,10 +30,7 @@
             </div>
         </div>
     </div>
-   @include('answers._index',[
-    'answers'=>$question->answers,
-    'answersCount'=>$question->answers_count,
-   ])
+    <answers :answers="{{ $question->answers }}" :count="{{ $question->answers_count }}"></answers>
    @include('answers._create')
 </div>
 @endsection
